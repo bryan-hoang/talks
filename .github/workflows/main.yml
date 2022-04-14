@@ -27,6 +27,12 @@ jobs:
           # specific directory on the deployment branch you can specify it
           # here.
           target-folder: ${{ env.slide }}
+          # You can use this option to delete files from your deployment
+          # destination that no longer exist in your deployment source. One use
+          # case is if your project generates hashed files that vary from build
+          # to build. Using clean will not affect .git, .github, or .ssh
+          # directories. This option is turned on by default and can be toggled
+          # off by setting it to false.
           clean: false
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
