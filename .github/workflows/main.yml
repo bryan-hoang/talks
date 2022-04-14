@@ -1,0 +1,31 @@
+name: Deploy pages
+on: push
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Set env
+        run: |
+          echo "slide=$(echo '${{ github.event.head_commit.message }}' | cut -d' ' -f 2)" >> $GITHUB_ENV
+      - uses: actions/setup-node@v3
+        with:
+          node-version: '14'
+      - name: Install dependencies
+        run: npm install
+      - name: Build
+        run: npm run build -- slides/${{ env.slide }}.md --base /talks/${{ env.slide }}/
+
+      - name: Deploy pages
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          # The branch the action should deploy to.
+          branch: gh-pages
+          # The folder the action should deploy.
+          folder: dist
+          # If you'd like to push the contents of the deployment folder into a
+          # specific directory on the deployment branch you can specify it
+          # here.
+          target-folder: ${{ env.slide }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
