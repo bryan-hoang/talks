@@ -27,5 +27,6 @@ jobs:
           # specific directory on the deployment branch you can specify it
           # here.
           target-folder: ${{ env.slide }}
+          clean: false
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
