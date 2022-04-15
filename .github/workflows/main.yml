@@ -15,7 +15,7 @@ jobs:
       - name: Install dependencies
         run: npm install
       - name: Build
-        run: npm run build -- slides/${{ env.slide }}.md --base /talks/${{ env.slide }}/
+        run: npm run build -- ${{ env.slide }}.md --base /talks/${{ env.slide }}/
 
       - name: Deploy pages
         uses: JamesIves/github-pages-deploy-action@v4
@@ -23,7 +23,7 @@ jobs:
           # The branch the action should deploy to.
           branch: gh-pages
           # The folder the action should deploy.
-          folder: slides/dist
+          folder: dist
           # If you'd like to push the contents of the deployment folder into a
           # specific directory on the deployment branch you can specify it
           # here.

@@ -12,18 +12,22 @@ Inspired by <https://github.com/fguisso/talks>.
 
 To start the slide show:
 
-- `npm install`
-- `npm run dev -- slides/<slides>.md`
-- visit <http://localhost:3030>
+```sh
+$ npm install
+$ npm run dev -- <slide-name>.md
+...
+  slide show      > http://localhost:3030/
+...
+```
 
-Edit the [slides.md](./slides.md) to see the changes.
+Edit `<slide-name>.md` to see the changes.
 
 ## Deploy in GitHub Pages
 
 Deploys are dispatched by commit messages:
 
-```bash
-git add slides/<slide-name>.md
+```sh
+git add <slide-name>.md
 
 git commit -m "deploy: <slide-name>"
 
