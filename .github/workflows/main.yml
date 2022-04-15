@@ -2,6 +2,7 @@ name: Deploy pages
 on: push
 jobs:
   deploy:
+    if: ${{ contains(github.event.head_commit.message, 'deploy') }}
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
@@ -22,7 +23,7 @@ jobs:
           # The branch the action should deploy to.
           branch: gh-pages
           # The folder the action should deploy.
-          folder: dist
+          folder: slides/dist
           # If you'd like to push the contents of the deployment folder into a
           # specific directory on the deployment branch you can specify it
           # here.
