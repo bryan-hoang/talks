@@ -2,7 +2,7 @@
   "name": "talks",
   "private": true,
   "scripts": {
-    "build": "slidev build",
+    "build": "slidev build -d",
     "dev": "slidev --open",
     "export": "slidev export"
   },
@@ -10,5 +10,8 @@
     "@slidev/cli": "^0.30.2",
     "@slidev/theme-default": "*",
     "@slidev/theme-seriph": "*"
+  },
+  "devDependencies": {
+    "playwright-chromium": "^1.21.0"
   }
 }
