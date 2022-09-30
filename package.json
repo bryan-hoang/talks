@@ -1,17 +1,21 @@
 {
-  "name": "talks",
-  "private": true,
-  "scripts": {
-    "build": "slidev build -d",
-    "dev": "slidev --open",
-    "export": "slidev export"
-  },
-  "dependencies": {
-    "@slidev/cli": "^0.36.5",
-    "@slidev/theme-default": "*",
-    "@slidev/theme-seriph": "*"
-  },
-  "devDependencies": {
-    "playwright-chromium": "^1.26.1"
-  }
+	"private": true,
+	"scripts": {
+		"build": "slidev build -d",
+		"dev": "slidev --open",
+		"export": "slidev export"
+	},
+	"dependencies": {
+		"@slidev/cli": "^0.36.5",
+		"@slidev/theme-default": "latest",
+		"@slidev/theme-seriph": "latest"
+	},
+	"devDependencies": {
+		"playwright-chromium": "^1.26.1"
+	},
+	"pnpm": {
+		"overrides": {
+			"d3-color@<3.1.0": ">=3.1.0"
+		}
+	}
 }
