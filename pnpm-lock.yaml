@@ -4,10 +4,10 @@ overrides:
   d3-color@<3.1.0: '>=3.1.0'
 
 specifiers:
-  '@slidev/cli': ^0.36.5
+  '@slidev/cli': latest
   '@slidev/theme-default': latest
   '@slidev/theme-seriph': latest
-  playwright-chromium: ^1.26.1
+  playwright-chromium: 1.26.1
 
 dependencies:
   '@slidev/cli': 0.36.5_rpl4zsx7lvekrlvacsalll7yj4
