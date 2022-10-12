@@ -7,15 +7,15 @@ specifiers:
   '@slidev/cli': latest
   '@slidev/theme-default': latest
   '@slidev/theme-seriph': latest
-  playwright-chromium: 1.27.0
+  playwright-chromium: 1.27.1
 
 dependencies:
-  '@slidev/cli': 0.36.6_uvnc6d7s7xxqr546tjzafyrdxe
+  '@slidev/cli': 0.36.6_y3vxdjhfjk64gr3ab7qpq3slxm
   '@slidev/theme-default': 0.21.2
   '@slidev/theme-seriph': 0.21.3
 
 devDependencies:
-  playwright-chromium: 1.27.0
+  playwright-chromium: 1.27.1
 
 packages:
 
@@ -306,19 +306,6 @@ packages:
     resolution: {integrity: sha512-+wluvCrRhXrhyOmRDJ3q8mux9JkKy5SJ/v8ol2tu4FVjyYvtEzkc/3pK15ET6RKg4b4w4BmTk1+gsCUhf21Ykg==}
     dev: false
 
-  /@iconify/utils/2.0.0:
-    resolution: {integrity: sha512-thvwZ6m3frWJiOYwRdHPSPGC25rmyvDl0vXdQ8ocRJZx31m8Pn4y7V1mTc5UReR6MiAj+hrV2UPZQjx7zI960g==}
-    dependencies:
-      '@antfu/install-pkg': 0.1.1
-      '@antfu/utils': 0.5.2
-      '@iconify/types': 2.0.0
-      debug: 4.3.4
-      kolorist: 1.6.0
-      local-pkg: 0.4.2
-    transitivePeerDependencies:
-      - supports-color
-    dev: false
-
   /@iconify/utils/2.0.1:
     resolution: {integrity: sha512-t8IyICk25wgZL4YKn/2kYfjG5MGA6EWZlaUJZ1OEIku4V+kX9V900T5E4HIqS3hLyD6/RJET0zY4vxO9pHLHHw==}
     dependencies:
@@ -470,7 +457,7 @@ packages:
       picomatch: 2.3.1
     dev: false
 
-  /@slidev/cli/0.36.6_uvnc6d7s7xxqr546tjzafyrdxe:
+  /@slidev/cli/0.36.6_y3vxdjhfjk64gr3ab7qpq3slxm:
     resolution: {integrity: sha512-UDI5YGrcaEOyfIhfHKZtc8JMggQk7YCVwB1SYaMQMg8CbOYTuI0mHdGBzvb/PfH4oqbmaMHm6E5D4lB5ppjVVg==}
     engines: {node: '>=14.0.0'}
     hasBin: true
@@ -508,7 +495,7 @@ packages:
       nanoid: 4.0.0
       open: 8.4.0
       plantuml-encoder: 1.4.0
-      playwright-chromium: 1.27.0
+      playwright-chromium: 1.27.1
       postcss-nested: 6.0.0_postcss@8.4.17
       prismjs: 1.29.0
       prompts: 2.4.2
@@ -2683,13 +2670,6 @@ packages:
       sourcemap-codec: 1.4.8
     dev: false
 
-  /magic-string/0.26.5:
-    resolution: {integrity: sha512-yXUIYOOQnEHKHOftp5shMWpB9ImfgfDJpapa38j/qMtTj5QHWucvxP4lUtuRmHT9vAzvtpHkWKXW9xBwimXeNg==}
-    engines: {node: '>=12'}
-    dependencies:
-      sourcemap-codec: 1.4.8
-    dev: false
-
   /magic-string/0.26.7:
     resolution: {integrity: sha512-hX9XH3ziStPoPhJxLq1syWuZMxbDvGNbVchfrdCtanC7D13888bMFow61x8axrx+GfHLtVeAx2kxL7tTGRl+Ow==}
     engines: {node: '>=12'}
@@ -2985,16 +2965,16 @@ packages:
     resolution: {integrity: sha512-sxMwpDw/ySY1WB2CE3+IdMuEcWibJ72DDOsXLkSmEaSzwEUaYBT6DWgOfBiHGCux4q433X6+OEFWjlVqp7gL6g==}
     dev: false
 
-  /playwright-chromium/1.27.0:
-    resolution: {integrity: sha512-nd33WzI8U6cBVnNVBiv83K8SuaxFtm4EICDtd3Wd0pXMgsnmfzKIXBwmg1IOyBr4vtpH+Ho82iB/ME4doxW3hg==}
+  /playwright-chromium/1.27.1:
+    resolution: {integrity: sha512-AXAfmNHVnqByo7dKLwLqEC3aKIUlATwDUHCBwVw/qyRCgGUEoufeFUxFXB7pJ4nppwThph7TFe3fHfoETPqSvg==}
     engines: {node: '>=14'}
     hasBin: true
     requiresBuild: true
     dependencies:
-      playwright-core: 1.27.0
+      playwright-core: 1.27.1
 
-  /playwright-core/1.27.0:
-    resolution: {integrity: sha512-VBKaaFUVKDo3akW+o4DwbK1ZyXh46tcSwQKPK3lruh8IJd5feu55XVZx4vOkbb2uqrNdIF51sgsadYT533SdpA==}
+  /playwright-core/1.27.1:
+    resolution: {integrity: sha512-9EmeXDncC2Pmp/z+teoVYlvmPWUC6ejSSYZUln7YaP89Z6lpAaiaAnqroUt/BoLo8tn7WYShcfaCh+xofZa44Q==}
     engines: {node: '>=14'}
     hasBin: true
 
@@ -3494,7 +3474,7 @@ packages:
     dependencies:
       '@antfu/install-pkg': 0.1.1
       '@antfu/utils': 0.5.2
-      '@iconify/utils': 2.0.0
+      '@iconify/utils': 2.0.1
       debug: 4.3.4
       kolorist: 1.6.0
       local-pkg: 0.4.2
@@ -3519,7 +3499,7 @@ packages:
       debug: 4.3.4
       fast-glob: 3.2.12
       local-pkg: 0.4.2
-      magic-string: 0.26.5
+      magic-string: 0.26.7
       minimatch: 5.1.0
       resolve: 1.22.1
       unplugin: 0.9.6
@@ -3595,7 +3575,7 @@ packages:
       axios: 0.27.2_debug@4.3.4
       debug: 4.3.4
       fs-extra: 10.1.0
-      magic-string: 0.26.5
+      magic-string: 0.26.7
       vite: 3.1.7
     transitivePeerDependencies:
       - supports-color
