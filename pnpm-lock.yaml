@@ -10,7 +10,7 @@ overrides:
 dependencies:
   '@slidev/cli':
     specifier: latest
-    version: 0.42.5(playwright-chromium@1.36.0)(postcss@8.4.23)
+    version: 0.42.5(playwright-chromium@1.36.1)(postcss@8.4.23)
   '@slidev/theme-default':
     specifier: latest
     version: 0.21.2
@@ -20,8 +20,8 @@ dependencies:
 
 devDependencies:
   playwright-chromium:
-    specifier: 1.36.0
-    version: 1.36.0
+    specifier: 1.36.1
+    version: 1.36.1
 
 packages:
 
@@ -749,7 +749,7 @@ packages:
       picomatch: 2.3.1
     dev: false
 
-  /@slidev/cli@0.42.5(playwright-chromium@1.36.0)(postcss@8.4.23):
+  /@slidev/cli@0.42.5(playwright-chromium@1.36.1)(postcss@8.4.23):
     resolution: {integrity: sha512-T+kAQ6C/AqBnGRsMjfZgw7s1Yp/Udv4cjbfJqoCYMqcOF1+5Dl5jTHf8Pquoi6H/UrayrWLIjKv03sdGa6TKUA==}
     engines: {node: '>=14.0.0'}
     hasBin: true
@@ -794,7 +794,7 @@ packages:
       open: 8.4.2
       pdf-lib: 1.17.1
       plantuml-encoder: 1.4.0
-      playwright-chromium: 1.36.0
+      playwright-chromium: 1.36.1
       postcss-nested: 6.0.1(postcss@8.4.23)
       prismjs: 1.29.0
       prompts: 2.4.2
@@ -1352,7 +1352,7 @@ packages:
       '@vueuse/metadata': 8.9.4
       '@vueuse/shared': 8.9.4(vue@3.3.4)
       vue: 3.3.4
-      vue-demi: 0.14.0(vue@3.3.4)
+      vue-demi: 0.14.5(vue@3.3.4)
     dev: false
 
   /@vueuse/head@1.1.26(vue@3.3.4):
@@ -1391,7 +1391,7 @@ packages:
       vue: '>=3.0.0'
     dependencies:
       '@vueuse/core': 10.2.1(vue@3.3.4)
-      '@vueuse/shared': 10.1.2(vue@3.3.4)
+      '@vueuse/shared': 10.2.1(vue@3.3.4)
       csstype: 3.1.2
       framesync: 6.1.2
       popmotion: 11.0.5
@@ -1403,15 +1403,6 @@ packages:
       - '@vue/composition-api'
       - rollup
       - supports-color
-    dev: false
-
-  /@vueuse/shared@10.1.2(vue@3.3.4):
-    resolution: {integrity: sha512-1uoUTPBlgyscK9v6ScGeVYDDzlPSFXBlxuK7SfrDGyUTBiznb3mNceqhwvZHjtDRELZEN79V5uWPTF1VDV8svA==}
-    dependencies:
-      vue-demi: 0.14.0(vue@3.3.4)
-    transitivePeerDependencies:
-      - '@vue/composition-api'
-      - vue
     dev: false
 
   /@vueuse/shared@10.2.1(vue@3.3.4):
@@ -1435,7 +1426,7 @@ packages:
         optional: true
     dependencies:
       vue: 3.3.4
-      vue-demi: 0.14.0(vue@3.3.4)
+      vue-demi: 0.14.5(vue@3.3.4)
     dev: false
 
   /@windicss/config@1.9.0:
@@ -3534,16 +3525,16 @@ packages:
     resolution: {integrity: sha512-sxMwpDw/ySY1WB2CE3+IdMuEcWibJ72DDOsXLkSmEaSzwEUaYBT6DWgOfBiHGCux4q433X6+OEFWjlVqp7gL6g==}
     dev: false
 
-  /playwright-chromium@1.36.0:
-    resolution: {integrity: sha512-AU4/euzKqiIeK7JMsxMlgVx3jRFOnXF0vkptF9mfqeNSETVYCbovZ9EpwJ3Kzm/vVAmIlpHp+VoXdX2bi+05Zg==}
+  /playwright-chromium@1.36.1:
+    resolution: {integrity: sha512-V2jBtS5zNUyMajzh6SRiCzafsz/Mg35IroR+SwWhAa1Dqa4juGXDp26AdK7Nj/fAOvwnG+dFDVOVx/ewt9dSxQ==}
     engines: {node: '>=16'}
     hasBin: true
     requiresBuild: true
     dependencies:
-      playwright-core: 1.36.0
+      playwright-core: 1.36.1
 
-  /playwright-core@1.36.0:
-    resolution: {integrity: sha512-7RTr8P6YJPAqB+8j5ATGHqD6LvLLM39sYVNsslh78g8QeLcBs5750c6+msjrHUwwGt+kEbczBj1XB22WMwn+WA==}
+  /playwright-core@1.36.1:
+    resolution: {integrity: sha512-7+tmPuMcEW4xeCL9cp9KxmYpQYHKkyjwoXRnoeTowaeNat8PoBMk/HwCYhqkH2fRkshfKEOiVus/IhID2Pg8kg==}
     engines: {node: '>=16'}
     hasBin: true
 
@@ -4323,21 +4314,6 @@ packages:
 
   /vscode-textmate@8.0.0:
     resolution: {integrity: sha512-AFbieoL7a5LMqcnOF04ji+rpXadgOXnZsxQr//r83kLPr7biP7am3g9zbaZIaBGwBRWeSvoMD4mgPdX3e4NWBg==}
-    dev: false
-
-  /vue-demi@0.14.0(vue@3.3.4):
-    resolution: {integrity: sha512-gt58r2ogsNQeVoQ3EhoUAvUsH9xviydl0dWJj7dabBC/2L4uBId7ujtCwDRD0JhkGsV1i0CtfLAeyYKBht9oWg==}
-    engines: {node: '>=12'}
-    hasBin: true
-    requiresBuild: true
-    peerDependencies:
-      '@vue/composition-api': ^1.0.0-rc.1
-      vue: ^3.0.0-0 || ^2.6.0
-    peerDependenciesMeta:
-      '@vue/composition-api':
-        optional: true
-    dependencies:
-      vue: 3.3.4
     dev: false
 
   /vue-demi@0.14.5(vue@3.3.4):
