@@ -1,27 +1,21 @@
 ---
-# try also 'default' to start simple
-theme: seriph
-# random image from a curated Unsplash collection by Anthony
-# like them? see https://unsplash.com/collections/94734566/slidev
 background: https://source.unsplash.com/collection/94734566/1920x1080
-# apply any windi css classes to the current slide
-class: 'text-center'
-# https://sli.dev/custom/highlighters.html
+class: text-center
 highlighter: shiki
-# show line numbers in code blocks
 lineNumbers: false
-# some information about the slides, markdown enabled
 info: |
   ## Slidev Starter Template
   Presentation slides for developers.
 
   Learn more at [Sli.dev](https://sli.dev)
-# persist drawings in exports and build
 drawings:
   persist: false
+transition: slide-left
+title: Welcome to Slidev
+mdc: true
 ---
 
-# Code Reviews
+# Welcome to Slidev
 
 Presentation slides for developers
 
@@ -32,11 +26,11 @@ Presentation slides for developers
 </div>
 
 <div class="abs-br m-6 flex gap-2">
-  <button @click="$slidev.nav.openInEditor()" title="Open in Editor" class="text-xl icon-btn opacity-50 !border-none !hover:text-white">
+  <button @click="$slidev.nav.openInEditor()" title="Open in Editor" class="text-xl slidev-icon-btn opacity-50 !border-none !hover:text-white">
     <carbon:edit />
   </button>
-  <a href="https://github.com/slidevjs/slidev" target="_blank" alt="GitHub"
-    class="text-xl icon-btn opacity-50 !border-none !hover:text-white">
+  <a href="https://github.com/slidevjs/slidev" target="_blank" alt="GitHub" title="Open in GitHub"
+    class="text-xl slidev-icon-btn opacity-50 !border-none !hover:text-white">
     <carbon-logo-github />
   </a>
 </div>
@@ -45,6 +39,8 @@ Presentation slides for developers
 The last comment block of each slide will be treated as slide notes. It will be visible and editable in Presenter Mode along with the slide. [Read more in the docs](https://sli.dev/guide/syntax.html#notes)
 -->
 
+---
+transition: fade-out
 ---
 
 # What is Slidev?
@@ -81,13 +77,32 @@ h1 {
 }
 </style>
 
+<!--
+Here is another comment.
+-->
+
+---
+layout: default
+---
+
+# Table of contents
+
+```html
+<Toc minDepth="1" maxDepth="1"></Toc>
+```
+
+<Toc maxDepth="1"></Toc>
+
+---
+transition: slide-up
+level: 2
 ---
 
 # Navigation
 
 Hover on the bottom-left corner to see the navigation's controls panel, [learn more](https://sli.dev/guide/navigation.html)
 
-### Keyboard Shortcuts
+## Keyboard Shortcuts
 
 |     |     |
 | --- | --- |
@@ -101,6 +116,7 @@ Hover on the bottom-left corner to see the navigation's controls panel, [learn m
   v-click
   class="absolute -bottom-9 -left-7 w-80 opacity-50"
   src="https://sli.dev/assets/arrow-bottom-left.svg"
+  alt=""
 />
 <p v-after class="absolute bottom-23 left-45 opacity-30 transform -rotate-10">Here!</p>
 
@@ -128,7 +144,7 @@ function updateUser(id: number, update: User) {
 }
 ```
 
-<arrow v-click="3" x1="400" y1="420" x2="230" y2="330" color="#564" width="3" arrowSize="1" />
+<arrow v-click="[3, 4]" x1="400" y1="420" x2="230" y2="330" color="#564" width="3" arrowSize="1" />
 
 [^1]: [Learn More](https://sli.dev/guide/syntax.html#line-highlighting)
 
@@ -143,7 +159,6 @@ function updateUser(id: number, update: User) {
   display: none;
 }
 </style>
-
 
 ---
 
@@ -177,6 +192,16 @@ Check out [the guides](https://sli.dev/builtin/components.html) for more.
 </div>
 </div>
 
+<!--
+Presenter note with **bold**, *italic*, and ~~striked~~ text.
+
+Also, HTML elements are valid:
+<div class="flex w-full">
+  <span style="flex-grow: 1;">Left content</span>
+  <span>Right content</span>
+</div>
+-->
+
 
 ---
 class: px-20
@@ -200,9 +225,9 @@ theme: seriph
 ---
 ```
 
-<img border="rounded" src="https://github.com/slidevjs/themes/blob/main/screenshots/theme-default/01.png?raw=true">
+<img border="rounded" src="https://github.com/slidevjs/themes/blob/main/screenshots/theme-default/01.png?raw=true" alt="">
 
-<img border="rounded" src="https://github.com/slidevjs/themes/blob/main/screenshots/theme-seriph/01.png?raw=true">
+<img border="rounded" src="https://github.com/slidevjs/themes/blob/main/screenshots/theme-seriph/01.png?raw=true" alt="">
 
 </div>
 
@@ -234,6 +259,7 @@ Animations are powered by [@vueuse/motion](https://motion.vueuse.org/).
       :enter="final"
       class="absolute top-0 left-0 right-0 bottom-0"
       src="https://sli.dev/logo-square.png"
+      alt=""
     />
     <img
       v-motion
@@ -241,6 +267,7 @@ Animations are powered by [@vueuse/motion](https://motion.vueuse.org/).
       :enter="final"
       class="absolute top-0 left-0 right-0 bottom-0"
       src="https://sli.dev/logo-circle.png"
+      alt=""
     />
     <img
       v-motion
@@ -248,6 +275,7 @@ Animations are powered by [@vueuse/motion](https://motion.vueuse.org/).
       :enter="final"
       class="absolute top-0 left-0 right-0 bottom-0"
       src="https://sli.dev/logo-triangle.png"
+      alt=""
     />
   </div>
 
@@ -296,7 +324,7 @@ LaTeX is supported out-of-box powered by [KaTeX](https://katex.org/).
 Inline $\sqrt{3x-1}+(1+x)^2$
 
 Block
-$$
+$$ {1|3|all}
 \begin{array}{c}
 
 \nabla \times \vec{\mathbf{B}} -\, \frac1c\, \frac{\partial\vec{\mathbf{E}}}{\partial t} &
@@ -319,9 +347,9 @@ $$
 
 You can create diagrams / graphs from textual descriptions, directly in your Markdown.
 
-<div class="grid grid-cols-3 gap-10 pt-4 -mb-6">
+<div class="grid grid-cols-4 gap-5 pt-4 -mb-6">
 
-```mermaid {scale: 0.5}
+```mermaid {scale: 0.5, alt: 'A simple sequence diagram'}
 sequenceDiagram
     Alice->John: Hello John, how are you?
     Note over Alice,John: A typical interaction
@@ -332,6 +360,26 @@ graph TD
 B[Text] --> C{Decision}
 C -->|One| D[Result 1]
 C -->|Two| E[Result 2]
+```
+
+```mermaid
+mindmap
+  root((mindmap))
+    Origins
+      Long history
+      ::icon(fa fa-book)
+      Popularisation
+        British popular psychology author Tony Buzan
+    Research
+      On effectivness<br/>and features
+      On Automatic creation
+        Uses
+            Creative techniques
+            Strategic planning
+            Argument mapping
+    Tools
+      Pen and paper
+      Mermaid
 ```
 
 ```plantuml {scale: 0.7}
@@ -373,6 +421,10 @@ database "MySql" {
 
 [Learn More](https://sli.dev/guide/syntax.html#diagrams)
 
+---
+src: ./pages/multiple-entries.md
+hide: false
+---
 
 ---
 layout: center
