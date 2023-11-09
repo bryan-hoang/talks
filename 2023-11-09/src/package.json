@@ -2,8 +2,8 @@
   "type": "module",
   "private": true,
   "scripts": {
-    "build": "slidev build --base /2023/apple-math-seminar/ --out ../../dist/2023/apple-math-seminar",
+    "build": "slidev build --base /2023/apple-math-alumni/ --out ../../dist/2023/apple-math-alumni/",
     "dev": "slidev",
-    "export": "slidev export --per-slide --output ../2023-11-09-apple-math-seminar.pdf"
+    "export": "slidev export --per-slide --output ../2023-11-09-apple-math-alumni.pdf"
   }
 }
