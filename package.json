@@ -13,7 +13,7 @@
   },
   "devDependencies": {
     "@antfu/eslint-config": "2.1.0",
-    "@types/node": "20.9.4",
+    "@types/node": "20.9.5",
     "consola": "3.2.3",
     "eslint": "8.54.0",
     "execa": "8.0.1",
