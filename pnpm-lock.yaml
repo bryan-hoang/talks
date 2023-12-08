@@ -19,8 +19,8 @@ importers:
         version: 5.0.5
     devDependencies:
       '@antfu/eslint-config':
-        specifier: 2.4.2
-        version: 2.4.2(@vue/compiler-sfc@3.3.4)(eslint@8.55.0)(typescript@5.2.2)
+        specifier: 2.4.3
+        version: 2.4.3(@vue/compiler-sfc@3.3.4)(eslint@8.55.0)(typescript@5.2.2)
       '@types/node':
         specifier: 20.10.4
         version: 20.10.4
@@ -57,8 +57,8 @@ packages:
       '@jridgewell/trace-mapping': 0.3.18
     dev: false
 
-  /@antfu/eslint-config@2.4.2(@vue/compiler-sfc@3.3.4)(eslint@8.55.0)(typescript@5.2.2):
-    resolution: {integrity: sha512-19l69ER3GS0yHHTS65tRkuawJKndeGv9wmr5wYV3QNmzBXQeXsmt8CW7hUC1qfQ1eb1nLn/zMa+krqIWqdclbw==}
+  /@antfu/eslint-config@2.4.3(@vue/compiler-sfc@3.3.4)(eslint@8.55.0)(typescript@5.2.2):
+    resolution: {integrity: sha512-DUMNwxPHxC0To63h7Z3bII41HqBUd+5iL0woubgjhhxJlZ0YRevOLHiSVGOifuivknwPW2nweF//8+BfoQCLjg==}
     hasBin: true
     peerDependencies:
       '@unocss/eslint-plugin': '>=0.50.0'
