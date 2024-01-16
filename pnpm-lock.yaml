@@ -10,7 +10,7 @@ importers:
     dependencies:
       '@slidev/cli':
         specifier: latest
-        version: 0.43.5(@types/markdown-it@13.0.1)(@types/node@20.11.4)(@vue/compiler-sfc@3.3.4)(playwright-chromium@1.40.1)(postcss@8.4.31)
+        version: 0.43.5(@types/markdown-it@13.0.1)(@types/node@20.11.4)(@vue/compiler-sfc@3.3.4)(playwright-chromium@1.41.0)(postcss@8.4.31)
       '@slidev/theme-default':
         specifier: latest
         version: 0.21.2
@@ -37,8 +37,8 @@ importers:
         specifier: 1.21.0
         version: 1.21.0
       playwright-chromium:
-        specifier: 1.40.1
-        version: 1.40.1
+        specifier: 1.41.0
+        version: 1.41.0
 
   2023-11-09/src: {}
 
@@ -949,7 +949,7 @@ packages:
       picomatch: 2.3.1
     dev: false
 
-  /@slidev/cli@0.43.5(@types/markdown-it@13.0.1)(@types/node@20.11.4)(@vue/compiler-sfc@3.3.4)(playwright-chromium@1.40.1)(postcss@8.4.31):
+  /@slidev/cli@0.43.5(@types/markdown-it@13.0.1)(@types/node@20.11.4)(@vue/compiler-sfc@3.3.4)(playwright-chromium@1.41.0)(postcss@8.4.31):
     resolution: {integrity: sha512-FOLYuoAkG2pDlsgkPiOuwdofyTr2Kbc2VYDF/pHdsr5PN/CS5XW3P/HnaIm6f4ianYjpcin5lgRIArjVOExBgQ==}
     engines: {node: '>=18.0.0'}
     hasBin: true
@@ -998,7 +998,7 @@ packages:
       open: 8.4.2
       pdf-lib: 1.17.1
       plantuml-encoder: 1.4.0
-      playwright-chromium: 1.40.1
+      playwright-chromium: 1.41.0
       postcss-nested: 6.0.1(postcss@8.4.31)
       prismjs: 1.29.0
       prompts: 2.4.2
@@ -5176,16 +5176,16 @@ packages:
     resolution: {integrity: sha512-sxMwpDw/ySY1WB2CE3+IdMuEcWibJ72DDOsXLkSmEaSzwEUaYBT6DWgOfBiHGCux4q433X6+OEFWjlVqp7gL6g==}
     dev: false
 
-  /playwright-chromium@1.40.1:
-    resolution: {integrity: sha512-3atylP47OCTBW0siGI7LOEG/XKL/vnrFH8xdr4uaTnqMsc0Xq4gOLk2gGwniPJ76LSc++9ASc0w/nfqtLAmm3A==}
+  /playwright-chromium@1.41.0:
+    resolution: {integrity: sha512-8mg2Yqp4LUSQgAqoP0PA7rhVc8glazce4TLyyRCgydfcebO1ur9AMWUSAoalJtisciXuldsQuNfTGggC7eu7ig==}
     engines: {node: '>=16'}
     hasBin: true
     requiresBuild: true
     dependencies:
-      playwright-core: 1.40.1
+      playwright-core: 1.41.0
 
-  /playwright-core@1.40.1:
-    resolution: {integrity: sha512-+hkOycxPiV534c4HhpfX6yrlawqVUzITRKwHAmYfmsVreltEl6fAZJ3DPfLMOODw0H3s1Itd6MDCWmP1fl/QvQ==}
+  /playwright-core@1.41.0:
+    resolution: {integrity: sha512-UGKASUhXmvqm2Lxa1fNr8sFwAtqjpgBRr9jQ7XBI8Rn5uFiEowGUGwrruUQsVPIom4bk7Lt+oLGpXobnXzrBIw==}
     engines: {node: '>=16'}
     hasBin: true
 
