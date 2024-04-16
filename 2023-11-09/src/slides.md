@@ -58,7 +58,7 @@ My background:
 - EngLinks, TA
 - Looking to purchase more Apple Math hats
 
-<!-- 
+<!--
 - Sidehustle -> extracurricular
  -->
 
@@ -110,7 +110,6 @@ image: /img/2023-04-05-distributive-robert-mirandola.jpg
 backgroundSize: contain
 ---
 
-
 # The Startup Life
 
 - Job security
@@ -118,7 +117,7 @@ backgroundSize: contain
 - Work life balance
 - Wear many hats
 - Transparency on the running a business
-- A lot of students & recent grads 
+- A lot of students & recent grads
 - Pose for photo ops [^photo-op]
 
 [^photo-op]: https://smithengineering.queensu.ca/news/2023/04/An-excellent-talent-pipeline-interns-are-treated-as-full-employees-in-12-16-month-terms.html
