@@ -142,3 +142,10 @@ dist
 .svelte-kit
 
 # End of https://www.toptal.com/developers/gitignore/api/node
+# Created by https://www.toptal.com/developers/gitignore/api/vercel
+# Edit at https://www.toptal.com/developers/gitignore?templates=vercel
+
+### Vercel ###
+.vercel
+
+# End of https://www.toptal.com/developers/gitignore/api/vercel
