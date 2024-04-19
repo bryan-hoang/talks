@@ -1,0 +1,60 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "redirects": [
+    {
+      "source": "/2023/dcp-on-js-runtimes/pdf",
+      "destination": "https://github.com/bryan-hoang/talks/blob/main/2023-08-18/2023-08-18-dcp-on-js-runtimes.pdf?raw=true",
+      "statusCode": 302
+    },
+    {
+      "source": "/2023-08-18/pdf",
+      "destination": "https://github.com/bryan-hoang/talks/blob/main/2023-08-18/2023-08-18-dcp-on-js-runtimes.pdf?raw=true",
+      "statusCode": 302
+    },
+    {
+      "source": "/2023/dcp-on-js-runtimes/src",
+      "destination": "https://github.com/bryan-hoang/talks/blob/main/2023-08-18",
+      "statusCode": 302
+    },
+    {
+      "source": "/2023-08-18",
+      "destination": "https://talks.bryanhoang.dev/2023/dcp-on-js-runtimes/",
+      "statusCode": 301
+    },
+    {
+      "source": "/2023/dcp-on-js-runtimes/(.*)",
+      "destination": "/2023/dcp-on-js-runtimes/index.html",
+      "statusCode": 200
+    },
+    {
+      "source": "/2023/apple-math-alumni/pdf",
+      "destination": "https://github.com/bryan-hoang/talks/blob/main/2023-11-09/2023-11-09-apple-math-alumni.pdf?raw=true",
+      "statusCode": 302
+    },
+    {
+      "source": "/2023-11-09/pdf",
+      "destination": "https://github.com/bryan-hoang/talks/blob/main/2023-11-09/2023-11-09-apple-math-alumni.pdf?raw=true",
+      "statusCode": 302
+    },
+    {
+      "source": "/2023/apple-math-alumni/src",
+      "destination": "https://github.com/bryan-hoang/talks/blob/main/2023-11-09",
+      "statusCode": 302
+    },
+    {
+      "source": "/2023-11-09",
+      "destination": "https://talks.bryanhoang.dev/2023/apple-math-alumni/",
+      "statusCode": 301
+    },
+    {
+      "source": "/2023/apple-math-alumni/(.*)",
+      "destination": "/2023/apple-math-alumni/index.html",
+      "statusCode": 200
+    },
+    {
+      "source": "/",
+      "destination": "https://bryanhoang.dev/talks",
+      "statusCode": 302
+    }
+  ]
+}
