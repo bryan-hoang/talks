@@ -1,35 +1,59 @@
 # Talks
 
-Talks I've made.
+[![standard-readme compliant][standard-readme-badge]][standard-readme-repo]
 
-In the first deploy you need to config GitHub pages in Settings point to the `gh-pages` branch.
+[standard-readme-badge]:
+  https://img.shields.io/badge/standard--readme-OK-green.svg?style=flat-square
+[standard-readme-repo]: https://github.com/RichardLitt/standard-readme
 
-Learn more about Slidev on [documentations](https://sli.dev/).
+Slides and code for my talks, using [Slidev](https://sli.dev/). Inspired by
+<https://github.com/antfu/talks>.
 
-Inspired by <https://github.com/fguisso/talks>.
+## Table of Contents
 
-## Development
+- [Install](#install)
+- [Usage](#usage)
+- [Maintainers](#maintainers)
+- [Contributing](#contributing)
+- [License](#license)
 
-To start the slide show:
+## Install
 
-```sh
-$ npm install
-$ npm run dev -- <slide-name>.md
-...
-  slide show      > http://localhost:3030/
-...
+```console
+git clone https://github.com/bryan-hoang/talks.git
+corepack enable
+pnpm install
 ```
 
-Edit `<slide-name>.md` to see the changes.
+## Usage
 
-## Deploy in GitHub Pages
+```console
+# Start development server.
+pnpm dev
 
-Deploys are dispatched by commit messages:
-
-```sh
-git add <slide-name>.md
-
-git commit -m "deploy: <slide-name>"
-
-git push
+# Build static website.
+pnpm build
 ```
+
+## Talks
+
+### 2023
+
+- [Working at a Startup Named after a Math Concept](./2023-11-09/) - Queen's
+  University
+- [Running `dcp-client` on Node.js, Deno, and Bun](./2023-08-18/) - Distributive
+
+## Maintainers
+
+[@bryan-hoang](https://github.com/bryan-hoang)
+
+## Contributing
+
+PRs accepted.
+
+Small note: if editing the README, conform to the
+[standard-readme](https://github.com/RichardLitt/standard-readme) specification.
+
+## License
+
+GNU Affero General Public License © 2024 Bryan Hoang
