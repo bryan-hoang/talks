@@ -2,12 +2,10 @@
 
 [![standard-readme compliant][standard-readme-badge]][standard-readme-repo]
 
-[standard-readme-badge]:
-  https://img.shields.io/badge/standard--readme-OK-green.svg?style=flat-square
+[standard-readme-badge]: https://img.shields.io/badge/standard--readme-OK-green.svg?style=flat-square
 [standard-readme-repo]: https://github.com/RichardLitt/standard-readme
 
-Slides and code for my talks, using [Slidev](https://sli.dev/). Inspired by
-<https://github.com/antfu/talks>.
+Slides and code for my talks, using [Slidev](https://sli.dev/). Inspired by <https://github.com/antfu/talks>.
 
 ## Table of Contents
 
@@ -39,8 +37,7 @@ pnpm build
 
 ### 2023
 
-- [Working at a Startup Named after a Math Concept](./2023-11-09/) - Queen's
-  University
+- [Working at a Startup Named after a Math Concept](./2023-11-09/) - Queen's University
 - [Running `dcp-client` on Node.js, Deno, and Bun](./2023-08-18/) - Distributive
 
 ## Maintainers
@@ -51,8 +48,8 @@ pnpm build
 
 PRs accepted.
 
-Small note: if editing the README, conform to the
-[standard-readme](https://github.com/RichardLitt/standard-readme) specification.
+Small note: if editing the README, conform to the [standard-readme](https://github.com/RichardLitt/standard-readme)
+specification.
 
 ## License
 

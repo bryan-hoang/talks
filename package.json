@@ -16,10 +16,12 @@
     "@antfu/eslint-config": "2.15.0",
     "@types/node": "20.12.7",
     "consola": "3.2.3",
-    "eslint": "9.0.0",
+    "eslint": "9.1.0",
+    "eslint-plugin-format": "0.1.1",
     "execa": "8.0.1",
     "jiti": "1.21.0",
-    "playwright-chromium": "1.43.1"
+    "playwright-chromium": "1.43.1",
+    "prettier-plugin-slidev": "1.0.5"
   },
   "packageManager": "pnpm@9.0.4+sha256.caa915eaae9d9aefccf50ee8aeda25a2f8684d8f9d5c6e367eaf176d97c1f89e"
 }

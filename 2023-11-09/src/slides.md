@@ -60,7 +60,7 @@ My background:
 
 <!--
 - Sidehustle -> extracurricular
- -->
+-->
 
 ---
 layout: image-right

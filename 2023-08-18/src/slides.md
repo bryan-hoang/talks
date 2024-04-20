@@ -232,17 +232,18 @@ Minimal repro:
 
 ```js
 require.cache.foo = {
-	exports: {
-		bar: 'foobar',
-	},
+  exports: {
+    bar: 'foobar',
+  },
 };
 
 console.log(require('foo'));
 
 try {
-	console.log(require('foo'));
-} catch (error) {
-	console.error(error);
+  console.log(require('foo'));
+}
+catch (error) {
+  console.error(error);
 }
 
 console.log(require('foo'));
