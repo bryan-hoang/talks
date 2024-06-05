@@ -40,8 +40,8 @@ importers:
         specifier: 9.1.0
         version: 9.1.0
       jiti:
-        specifier: 1.21.0
-        version: 1.21.0
+        specifier: 1.21.1
+        version: 1.21.1
       playwright-chromium:
         specifier: 1.44.1
         version: 1.44.1
@@ -2581,8 +2581,8 @@ packages:
     resolution: {integrity: sha512-N3yCS/NegsOBokc8GAdM8UcmfsKiSS8cipheD/nivzr700H+nsMOxJjQnvwOcRYVuFkdH0wGUvW2WbXGmrZGbQ==}
     engines: {node: '>=14'}
 
-  jiti@1.21.0:
-    resolution: {integrity: sha512-gFqAIbuKyyso/3G2qhiO2OM6shY6EPP/R0+mkDbyspxKazh8BXDC5FiFsUjlczgdNz/vfra0da2y+aHrusLG/Q==}
+  jiti@1.21.1:
+    resolution: {integrity: sha512-KMXpzEJMsOFyRj6ZpDTnnlJrdr9umUY+eut5vlRvjVixohitnRFIRTFw9MEu9zPlBxTHZo6xD5ftKYiQZuJYQw==}
     hasBin: true
 
   js-tokens@4.0.0:
@@ -4845,7 +4845,7 @@ snapshots:
       globby: 14.0.1
       hash-sum: 2.0.0
       ignore: 5.3.1
-      jiti: 1.21.0
+      jiti: 1.21.1
       knitwork: 1.1.0
       mlly: 1.7.0
       pathe: 1.1.2
@@ -5032,7 +5032,7 @@ snapshots:
       global-directory: 4.0.1
       htmlparser2: 9.1.0
       is-installed-globally: 1.0.0
-      jiti: 1.21.0
+      jiti: 1.21.1
       katex: 0.16.10
       kolorist: 1.8.0
       local-pkg: 0.5.0
@@ -5899,7 +5899,7 @@ snapshots:
       defu: 6.1.4
       dotenv: 16.4.5
       giget: 1.2.3
-      jiti: 1.21.0
+      jiti: 1.21.1
       mlly: 1.7.0
       ohash: 1.1.3
       pathe: 1.1.2
@@ -7169,7 +7169,7 @@ snapshots:
     optionalDependencies:
       '@pkgjs/parseargs': 0.11.0
 
-  jiti@1.21.0: {}
+  jiti@1.21.1: {}
 
   js-tokens@4.0.0: {}
 
@@ -8503,7 +8503,7 @@ snapshots:
     dependencies:
       '@antfu/utils': 0.7.8
       defu: 6.1.4
-      jiti: 1.21.0
+      jiti: 1.21.1
 
   unctx@2.3.1:
     dependencies:
@@ -8674,7 +8674,7 @@ snapshots:
       '@babel/standalone': 7.24.4
       '@babel/types': 7.24.5
       defu: 6.1.4
-      jiti: 1.21.0
+      jiti: 1.21.1
       mri: 1.2.0
       scule: 1.3.0
     transitivePeerDependencies:
