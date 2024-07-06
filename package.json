@@ -9,7 +9,7 @@
   "dependencies": {
     "@slidev/cli": "latest",
     "@slidev/theme-default": "latest",
-    "rimraf": "5.0.7",
+    "rimraf": "5.0.8",
     "slidev-theme-dracula": "0.2.0"
   },
   "devDependencies": {
