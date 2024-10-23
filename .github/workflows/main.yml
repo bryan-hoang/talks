@@ -5,7 +5,7 @@ jobs:
     if: ${{ contains(github.event.head_commit.message, 'deploy') }}
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@eef61447b9ff4aafe5dcd4e0bbf5d482be7e7871 # v4
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4
       - name: Set env
         run: |
           echo "slide=$(echo '${{ github.event.head_commit.message }}' | cut -d' ' -f 2)" >> $GITHUB_ENV
