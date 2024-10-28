@@ -23,5 +23,5 @@
     "playwright-chromium": "1.48.2",
     "prettier-plugin-slidev": "1.0.5"
   },
-  "packageManager": "pnpm@9.12.2"
+  "packageManager": "pnpm@9.12.3"
 }
