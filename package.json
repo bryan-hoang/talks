@@ -14,7 +14,7 @@
   },
   "devDependencies": {
     "@antfu/eslint-config": "3.11.1",
-    "@types/node": "22.10.0",
+    "@types/node": "22.10.1",
     "consola": "3.2.3",
     "eslint": "9.15.0",
     "eslint-plugin-format": "0.1.2",
