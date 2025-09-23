@@ -10,7 +10,7 @@ importers:
     dependencies:
       '@slidev/cli':
         specifier: latest
-        version: 52.2.4(@babel/parser@7.28.4)(@nuxt/kit@3.15.4(rollup@4.52.0))(@types/markdown-it@14.1.2)(@types/node@22.18.6)(@vue/compiler-sfc@3.5.21)(markdown-it-async@2.2.0)(playwright-chromium@1.55.0)(postcss@8.5.6)(rollup@4.52.0)(tsx@4.19.2)(vue-template-compiler@2.7.16)
+        version: 52.2.4(@babel/parser@7.28.4)(@nuxt/kit@3.15.4(rollup@4.52.0))(@types/markdown-it@14.1.2)(@types/node@22.18.6)(@vue/compiler-sfc@3.5.21)(markdown-it-async@2.2.0)(playwright-chromium@1.55.1)(postcss@8.5.6)(rollup@4.52.0)(tsx@4.19.2)(vue-template-compiler@2.7.16)
       '@slidev/theme-default':
         specifier: latest
         version: 0.25.0
@@ -43,8 +43,8 @@ importers:
         specifier: 2.6.0
         version: 2.6.0
       playwright-chromium:
-        specifier: 1.55.0
-        version: 1.55.0
+        specifier: 1.55.1
+        version: 1.55.1
       prettier-plugin-slidev:
         specifier: 1.0.5
         version: 1.0.5(prettier@3.6.2)
@@ -3249,13 +3249,13 @@ packages:
   plantuml-encoder@1.4.0:
     resolution: {integrity: sha512-sxMwpDw/ySY1WB2CE3+IdMuEcWibJ72DDOsXLkSmEaSzwEUaYBT6DWgOfBiHGCux4q433X6+OEFWjlVqp7gL6g==}
 
-  playwright-chromium@1.55.0:
-    resolution: {integrity: sha512-6eInUmPoVZP+COQbXdEqorJTOU3xLOaUhZReZFYtEReR7WMo5iS3/bf4p+xZuFZlSeq1bvbdpujXxUGPCyti/w==}
+  playwright-chromium@1.55.1:
+    resolution: {integrity: sha512-eq2L3TRfYX5CGBUTk2ey8jrxFZsL1cQ13LRnWfyM3708IFUSql8Db8Pddeh7jFXMKWou0KySCSv53GhdyXI2EQ==}
     engines: {node: '>=18'}
     hasBin: true
 
-  playwright-core@1.55.0:
-    resolution: {integrity: sha512-GvZs4vU3U5ro2nZpeiwyb0zuFaqb9sUiAJuyrWpcGouD8y9/HLgGbNRjIph7zU9D3hnPaisMl9zG9CgFi/biIg==}
+  playwright-core@1.55.1:
+    resolution: {integrity: sha512-Z6Mh9mkwX+zxSlHqdr5AOcJnfp+xUWLCt9uKV18fhzA8eyxUd8NUWzAjxUh55RZKSYwDGX0cfaySdhZJGMoJ+w==}
     engines: {node: '>=18'}
     hasBin: true
 
@@ -4962,7 +4962,7 @@ snapshots:
 
   '@sindresorhus/merge-streams@4.0.0': {}
 
-  '@slidev/cli@52.2.4(@babel/parser@7.28.4)(@nuxt/kit@3.15.4(rollup@4.52.0))(@types/markdown-it@14.1.2)(@types/node@22.18.6)(@vue/compiler-sfc@3.5.21)(markdown-it-async@2.2.0)(playwright-chromium@1.55.0)(postcss@8.5.6)(rollup@4.52.0)(tsx@4.19.2)(vue-template-compiler@2.7.16)':
+  '@slidev/cli@52.2.4(@babel/parser@7.28.4)(@nuxt/kit@3.15.4(rollup@4.52.0))(@types/markdown-it@14.1.2)(@types/node@22.18.6)(@vue/compiler-sfc@3.5.21)(markdown-it-async@2.2.0)(playwright-chromium@1.55.1)(postcss@8.5.6)(rollup@4.52.0)(tsx@4.19.2)(vue-template-compiler@2.7.16)':
     dependencies:
       '@antfu/ni': 25.0.0
       '@antfu/utils': 9.2.0
@@ -5035,7 +5035,7 @@ snapshots:
       yaml: 2.8.1
       yargs: 18.0.0
     optionalDependencies:
-      playwright-chromium: 1.55.0
+      playwright-chromium: 1.55.1
     transitivePeerDependencies:
       - '@babel/parser'
       - '@nuxt/kit'
@@ -7918,11 +7918,11 @@ snapshots:
 
   plantuml-encoder@1.4.0: {}
 
-  playwright-chromium@1.55.0:
+  playwright-chromium@1.55.1:
     dependencies:
-      playwright-core: 1.55.0
+      playwright-core: 1.55.1
 
-  playwright-core@1.55.0: {}
+  playwright-core@1.55.1: {}
 
   pluralize@8.0.0: {}
 
