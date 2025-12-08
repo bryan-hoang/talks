@@ -13,7 +13,7 @@
     "slidev-theme-dracula": "0.2.0"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "6.4.2",
+    "@antfu/eslint-config": "6.5.1",
     "@types/node": "24.10.1",
     "consola": "3.4.2",
     "eslint": "9.39.1",
