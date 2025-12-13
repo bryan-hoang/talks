@@ -16,7 +16,7 @@
     "@antfu/eslint-config": "6.6.1",
     "@types/node": "24.10.3",
     "consola": "3.4.2",
-    "eslint": "9.39.1",
+    "eslint": "9.39.2",
     "eslint-plugin-format": "1.1.0",
     "execa": "9.6.1",
     "jiti": "2.6.1",
