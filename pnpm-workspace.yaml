@@ -1,2 +1,9 @@
 packages:
   - '*/src'
+
+minimumReleaseAgeExclude:
+  - '@types/node'
+
+onlyBuiltDependencies:
+  - esbuild
+  - playwright-chromium
