@@ -10,13 +10,13 @@ importers:
     dependencies:
       '@slidev/cli':
         specifier: latest
-        version: 52.11.5(@nuxt/kit@3.20.1)(@types/markdown-it@14.1.2)(@types/node@24.10.6)(@vue/compiler-sfc@3.5.27)(markdown-it-async@2.2.0)(playwright-chromium@1.58.2)(postcss@8.5.6)(tsx@4.19.2)
+        version: 52.12.0(@nuxt/kit@3.20.1)(@types/markdown-it@14.1.2)(@types/node@24.10.6)(@vue/compiler-sfc@3.5.27)(markdown-it-async@2.2.0)(playwright-chromium@1.58.2)(postcss@8.5.6)(tsx@4.19.2)
       '@slidev/theme-default':
         specifier: latest
         version: 0.25.0
       rimraf:
-        specifier: 6.1.2
-        version: 6.1.2
+        specifier: 6.1.3
+        version: 6.1.3
       slidev-theme-dracula:
         specifier: 0.2.0
         version: 0.2.0
@@ -713,6 +713,10 @@ packages:
     resolution: {integrity: sha512-ZT55BDLV0yv0RBm2czMiZ+SqCGO7AvmOM3G/w2xhVPH+te0aKgFjmBvGlL1dH+ql2tgGO3MVrbb3jCKyvpgnxA==}
     engines: {node: 20 || >=22}
 
+  '@isaacs/cliui@9.0.0':
+    resolution: {integrity: sha512-AokJm4tuBHillT+FpMtxQ60n8ObyXBatq7jD2/JA9dxbDDokKQm8KMht5ibGzLVU9IJDIKK4TPKgMHEYMn3lMg==}
+    engines: {node: '>=18'}
+
   '@jridgewell/gen-mapping@0.3.13':
     resolution: {integrity: sha512-2kkt/7niJ6MgEPxF0bYdQ6etZaA+fQvDcLKckhy1yIQOzaoKjBBjSj63/aLVjYE3qhRt5dvM+uUyfCg6UKCBbA==}
 
@@ -974,8 +978,8 @@ packages:
     resolution: {integrity: sha512-tlqY9xq5ukxTUZBmoOp+m61cqwQD5pHJtFY3Mn8CA8ps6yghLH/Hw8UPdqg4OLmFW3IFlcXnQNmo/dh8HzXYIQ==}
     engines: {node: '>=18'}
 
-  '@slidev/cli@52.11.5':
-    resolution: {integrity: sha512-MZJhWsgXHrFiuO3EbEMSZhVn6k6UP19nHwOhDXBtlLk4Dy1BCc99s9AzUjO9NjebRHCr2+3u5irX/2UHVNRoPA==}
+  '@slidev/cli@52.12.0':
+    resolution: {integrity: sha512-6BunjhUuoSbvHw5v8Ev/8vVeD9L8m5BQ1mIlpX9H2UdNW4ALpSvW1RAURPo/0d+Rvt4hwuwIDcinQv/XqGOvBg==}
     engines: {node: '>=18.0.0'}
     hasBin: true
     peerDependencies:
@@ -984,16 +988,16 @@ packages:
       playwright-chromium:
         optional: true
 
-  '@slidev/client@52.11.5':
-    resolution: {integrity: sha512-wwnndmO8RL93zNKt7zUrt4qRN/piF/TIAZ4xKS93KGXZ4DOGllqF4AvLPIfuN8+tT6dMeML0u6h65Xrq/b+7eQ==}
+  '@slidev/client@52.12.0':
+    resolution: {integrity: sha512-dy9zxgt9q081NMEMV8c9m1MlUf1dnrtJh+Uh0Dpl+SjZ/AlSSL8C4FWdIJUOmdHWtxg8lJ3S8NSpDbTiP0BiNw==}
     engines: {node: '>=18.0.0'}
 
   '@slidev/parser@0.47.5':
     resolution: {integrity: sha512-KvqOEhIFuMDu8CjAsehMNKlAnnmAn2TRHiEymc3CMadid05oWa5zgTxqEyMxUl2rjWpYs3A1yDiendZsGYs3HA==}
     engines: {node: '>=18.0.0'}
 
-  '@slidev/parser@52.11.5':
-    resolution: {integrity: sha512-+99OtNUTyUPDXfOzeZ7BeS3fzw4v2wSkqfjNN8y1BJ7heM2h2+dJlqLP9wzm/2T2C/XleOWkMFqEUVNTv0sfJg==}
+  '@slidev/parser@52.12.0':
+    resolution: {integrity: sha512-e7EeGLaXKtZ4Fh87zKgufTjMwg8Aivrliuy6J52O8zv2BvzrvRedvsR6NLOpTZX89WII/5dtI0HLYYEHVqcy2Q==}
     engines: {node: '>=18.0.0'}
 
   '@slidev/rough-notation@0.1.0':
@@ -1011,8 +1015,8 @@ packages:
     resolution: {integrity: sha512-X67V4cCgM0Sz50bP8GbVzmiL8DHC2IXvdKcsN7DlxHyf+/T4d9GveeGukwha5Fx3MuYeGZWKag7TFL2ZY4w54A==}
     engines: {node: '>=18.0.0'}
 
-  '@slidev/types@52.11.5':
-    resolution: {integrity: sha512-KPXDC0b7jNHYZy06TrSvNoZ/WVNr5HaWPucmEPxkDF4urJBV0DQ23/fVnBagGsiSrKYHu+mQgCMS+5a++EytEg==}
+  '@slidev/types@52.12.0':
+    resolution: {integrity: sha512-LqnCbd7CbSQK7iQNOBO/fLLCCV77B92AKmJBdk85C3rem9oMD7rWqqKdY2PJ9byyO4pH/xZ1G/QT88nc0dTHiQ==}
     engines: {node: '>=18.0.0'}
 
   '@stylistic/eslint-plugin@5.8.0':
@@ -1512,6 +1516,10 @@ packages:
   balanced-match@1.0.2:
     resolution: {integrity: sha512-3oSeUO0TMV67hN1AmbXsK4yaqU7tjiHlbxRDZOpH0KW9+CeX4bRAaX0Anxt0tx2MrpRpWwQaPwIlISEJhYU5Pw==}
 
+  balanced-match@4.0.2:
+    resolution: {integrity: sha512-x0K50QvKQ97fdEz2kPehIerj+YTeptKF9hyYkKf6egnwmMWAkADiO0QCzSp0R5xN8FTZgYaBfSaue46Ej62nMg==}
+    engines: {node: 20 || >=22}
+
   baseline-browser-mapping@2.8.21:
     resolution: {integrity: sha512-JU0h5APyQNsHOlAM7HnQnPToSDQoEBZqzu/YBlqDnEeymPnZDREeXJA3KBMQee+dKteAxZ2AtvQEvVYdZf241Q==}
     hasBin: true
@@ -1528,6 +1536,10 @@ packages:
 
   brace-expansion@2.0.2:
     resolution: {integrity: sha512-Jt0vHyM+jmUBqojB7E1NIYadt0vI0Qxjxd2TErW94wDz+E2LAm5vKMXXwg6ZZBTHPuUlDgQHKXvjGBdfcF1ZDQ==}
+
+  brace-expansion@5.0.2:
+    resolution: {integrity: sha512-Pdk8c9poy+YhOgVWw1JNN22/HcivgKWwpxKq04M/jTmHyCZn12WPJebZxdjSa5TmBqISrUSgNYU3eRORljfCCw==}
+    engines: {node: 20 || >=22}
 
   braces@3.0.3:
     resolution: {integrity: sha512-yQbXgO/OSZVD2IsiLlro+7Hf6Q18EJrKSEsdoMzKePKXct3gvD8oLcOQdIzGupr5Fj+EDe8gO/lxc1BzfMpxvA==}
@@ -2397,8 +2409,8 @@ packages:
     resolution: {integrity: sha512-XxwI8EOhVQgWp6iDL+3b0r86f4d6AX6zSU55HfB4ydCEuXLXc5FcYeOu+nnGftS4TEju/11rt4KJPTMgbfmv4A==}
     engines: {node: '>=10.13.0'}
 
-  glob@13.0.0:
-    resolution: {integrity: sha512-tvZgpqk6fz4BaNZ66ZsRaZnbHvP/jG3uKJvAZOwEVUL4RTA5nJeeLYfyN9/VA8NX/V3IBG+hkeuGpKjvELkVhA==}
+  glob@13.0.3:
+    resolution: {integrity: sha512-/g3B0mC+4x724v1TgtBlBtt2hPi/EWptsIAmXUx9Z2rvBYleQcsrmaOzd5LyL50jf/Soi83ZDJmw2+XqvH/EeA==}
     engines: {node: 20 || >=22}
 
   global-directory@4.0.1:
@@ -2594,6 +2606,10 @@ packages:
 
   isexe@2.0.0:
     resolution: {integrity: sha512-RHxMLp9lnKHGHRng9QFhRCMbYAcVpn69smSGcq3f36xjgVVWThj4qqLbTLlq7Ssj8B+fIQ1EuCEGI2lKsyQeIw==}
+
+  jackspeak@4.2.3:
+    resolution: {integrity: sha512-ykkVRwrYvFm1nb2AJfKKYPr0emF6IiXDYUaFx4Zn9ZuIH7MrzEZ3sD5RlqGXNRpHtvUHJyOnCEFxOlNDtGo7wg==}
+    engines: {node: 20 || >=22}
 
   jiti@2.6.1:
     resolution: {integrity: sha512-ekilCSN1jwRvIbgeg/57YFh8qQDNbwDb9xT/qu2DAHbFFZUicIl4ygVaAvzveMhMVr3LnpSKTNnwt8PoOfmKhQ==}
@@ -2894,6 +2910,10 @@ packages:
 
   minimatch@10.1.1:
     resolution: {integrity: sha512-enIvLvRAFZYXJzkCYG5RKmPfrFArdLv+R+lbQ53BmIMLIry74bjKzX6iHAm8WYamJkhSSEabrWN5D97XnKObjQ==}
+    engines: {node: 20 || >=22}
+
+  minimatch@10.2.0:
+    resolution: {integrity: sha512-ugkC31VaVg9cF0DFVoADH12k6061zNZkZON+aX8AWsR9GhPcErkcMBceb6znR8wLERM2AkkOxy2nWRLpT9Jq5w==}
     engines: {node: 20 || >=22}
 
   minimatch@9.0.5:
@@ -3258,8 +3278,8 @@ packages:
     resolution: {integrity: sha512-U9nH88a3fc/ekCF1l0/UP1IosiuIjyTh7hBvXVMHYgVcfGvt897Xguj2UOLDeI5BG2m7/uwyaLVT6fbtCwTyzw==}
     engines: {iojs: '>=1.0.0', node: '>=0.10.0'}
 
-  rimraf@6.1.2:
-    resolution: {integrity: sha512-cFCkPslJv7BAXJsYlK1dZsbP8/ZNLkCAQ0bi1hf5EKX2QHegmDFEFA6QhuYJlk7UDdc+02JjO80YSOrWPpw06g==}
+  rimraf@6.1.3:
+    resolution: {integrity: sha512-LKg+Cr2ZF61fkcaK1UdkH2yEBBKnYjTyWzTJT6KNPcSPaiT7HSdhtMXQuN5wkTX0Xu72KQ1l8S42rlmexS2hSA==}
     engines: {node: 20 || >=22}
     hasBin: true
 
@@ -4427,6 +4447,8 @@ snapshots:
     dependencies:
       '@isaacs/balanced-match': 4.0.1
 
+  '@isaacs/cliui@9.0.0': {}
+
   '@jridgewell/gen-mapping@0.3.13':
     dependencies:
       '@jridgewell/sourcemap-codec': 1.5.5
@@ -4692,7 +4714,7 @@ snapshots:
 
   '@sindresorhus/merge-streams@4.0.0': {}
 
-  '@slidev/cli@52.11.5(@nuxt/kit@3.20.1)(@types/markdown-it@14.1.2)(@types/node@24.10.6)(@vue/compiler-sfc@3.5.27)(markdown-it-async@2.2.0)(playwright-chromium@1.58.2)(postcss@8.5.6)(tsx@4.19.2)':
+  '@slidev/cli@52.12.0(@nuxt/kit@3.20.1)(@types/markdown-it@14.1.2)(@types/node@24.10.6)(@vue/compiler-sfc@3.5.27)(markdown-it-async@2.2.0)(playwright-chromium@1.58.2)(postcss@8.5.6)(tsx@4.19.2)':
     dependencies:
       '@antfu/ni': 28.2.0
       '@antfu/utils': 9.3.0
@@ -4703,9 +4725,9 @@ snapshots:
       '@shikijs/markdown-it': 3.21.0(markdown-it-async@2.2.0)
       '@shikijs/twoslash': 3.21.0(typescript@5.9.3)
       '@shikijs/vitepress-twoslash': 3.21.0(@nuxt/kit@3.20.1)(typescript@5.9.3)
-      '@slidev/client': 52.11.5(@nuxt/kit@3.20.1)(@vue/compiler-sfc@3.5.27)(markdown-it-async@2.2.0)(postcss@8.5.6)(vite@7.3.1(@types/node@24.10.6)(jiti@2.6.1)(tsx@4.19.2)(yaml@2.8.2))
-      '@slidev/parser': 52.11.5(@nuxt/kit@3.20.1)(@vue/compiler-sfc@3.5.27)(markdown-it-async@2.2.0)(postcss@8.5.6)(typescript@5.9.3)(vite@7.3.1(@types/node@24.10.6)(jiti@2.6.1)(tsx@4.19.2)(yaml@2.8.2))
-      '@slidev/types': 52.11.5(@nuxt/kit@3.20.1)(@vue/compiler-sfc@3.5.27)(markdown-it-async@2.2.0)(postcss@8.5.6)(typescript@5.9.3)(vite@7.3.1(@types/node@24.10.6)(jiti@2.6.1)(tsx@4.19.2)(yaml@2.8.2))
+      '@slidev/client': 52.12.0(@nuxt/kit@3.20.1)(@vue/compiler-sfc@3.5.27)(markdown-it-async@2.2.0)(postcss@8.5.6)(vite@7.3.1(@types/node@24.10.6)(jiti@2.6.1)(tsx@4.19.2)(yaml@2.8.2))
+      '@slidev/parser': 52.12.0(@nuxt/kit@3.20.1)(@vue/compiler-sfc@3.5.27)(markdown-it-async@2.2.0)(postcss@8.5.6)(typescript@5.9.3)(vite@7.3.1(@types/node@24.10.6)(jiti@2.6.1)(tsx@4.19.2)(yaml@2.8.2))
+      '@slidev/types': 52.12.0(@nuxt/kit@3.20.1)(@vue/compiler-sfc@3.5.27)(markdown-it-async@2.2.0)(postcss@8.5.6)(typescript@5.9.3)(vite@7.3.1(@types/node@24.10.6)(jiti@2.6.1)(tsx@4.19.2)(yaml@2.8.2))
       '@unocss/extractor-mdc': 66.6.0
       '@unocss/reset': 66.6.0
       '@vitejs/plugin-vue': 6.0.3(vite@7.3.1(@types/node@24.10.6)(jiti@2.6.1)(tsx@4.19.2)(yaml@2.8.2))(vue@3.5.27(typescript@5.9.3))
@@ -4790,7 +4812,7 @@ snapshots:
       - terser
       - tsx
 
-  '@slidev/client@52.11.5(@nuxt/kit@3.20.1)(@vue/compiler-sfc@3.5.27)(markdown-it-async@2.2.0)(postcss@8.5.6)(vite@7.3.1(@types/node@24.10.6)(jiti@2.6.1)(tsx@4.19.2)(yaml@2.8.2))':
+  '@slidev/client@52.12.0(@nuxt/kit@3.20.1)(@vue/compiler-sfc@3.5.27)(markdown-it-async@2.2.0)(postcss@8.5.6)(vite@7.3.1(@types/node@24.10.6)(jiti@2.6.1)(tsx@4.19.2)(yaml@2.8.2))':
     dependencies:
       '@antfu/utils': 9.3.0
       '@iconify-json/carbon': 1.2.18
@@ -4799,9 +4821,9 @@ snapshots:
       '@shikijs/engine-javascript': 3.21.0
       '@shikijs/monaco': 3.21.0
       '@shikijs/vitepress-twoslash': 3.21.0(@nuxt/kit@3.20.1)(typescript@5.9.3)
-      '@slidev/parser': 52.11.5(@nuxt/kit@3.20.1)(@vue/compiler-sfc@3.5.27)(markdown-it-async@2.2.0)(postcss@8.5.6)(typescript@5.9.3)(vite@7.3.1(@types/node@24.10.6)(jiti@2.6.1)(tsx@4.19.2)(yaml@2.8.2))
+      '@slidev/parser': 52.12.0(@nuxt/kit@3.20.1)(@vue/compiler-sfc@3.5.27)(markdown-it-async@2.2.0)(postcss@8.5.6)(typescript@5.9.3)(vite@7.3.1(@types/node@24.10.6)(jiti@2.6.1)(tsx@4.19.2)(yaml@2.8.2))
       '@slidev/rough-notation': 0.1.0
-      '@slidev/types': 52.11.5(@nuxt/kit@3.20.1)(@vue/compiler-sfc@3.5.27)(markdown-it-async@2.2.0)(postcss@8.5.6)(typescript@5.9.3)(vite@7.3.1(@types/node@24.10.6)(jiti@2.6.1)(tsx@4.19.2)(yaml@2.8.2))
+      '@slidev/types': 52.12.0(@nuxt/kit@3.20.1)(@vue/compiler-sfc@3.5.27)(markdown-it-async@2.2.0)(postcss@8.5.6)(typescript@5.9.3)(vite@7.3.1(@types/node@24.10.6)(jiti@2.6.1)(tsx@4.19.2)(yaml@2.8.2))
       '@typescript/ata': 0.9.8(typescript@5.9.3)
       '@unhead/vue': 2.1.2(vue@3.5.27(typescript@5.9.3))
       '@unocss/reset': 66.6.0
@@ -4847,10 +4869,10 @@ snapshots:
       '@slidev/types': 0.47.5
       js-yaml: 4.1.1
 
-  '@slidev/parser@52.11.5(@nuxt/kit@3.20.1)(@vue/compiler-sfc@3.5.27)(markdown-it-async@2.2.0)(postcss@8.5.6)(typescript@5.9.3)(vite@7.3.1(@types/node@24.10.6)(jiti@2.6.1)(tsx@4.19.2)(yaml@2.8.2))':
+  '@slidev/parser@52.12.0(@nuxt/kit@3.20.1)(@vue/compiler-sfc@3.5.27)(markdown-it-async@2.2.0)(postcss@8.5.6)(typescript@5.9.3)(vite@7.3.1(@types/node@24.10.6)(jiti@2.6.1)(tsx@4.19.2)(yaml@2.8.2))':
     dependencies:
       '@antfu/utils': 9.3.0
-      '@slidev/types': 52.11.5(@nuxt/kit@3.20.1)(@vue/compiler-sfc@3.5.27)(markdown-it-async@2.2.0)(postcss@8.5.6)(typescript@5.9.3)(vite@7.3.1(@types/node@24.10.6)(jiti@2.6.1)(tsx@4.19.2)(yaml@2.8.2))
+      '@slidev/types': 52.12.0(@nuxt/kit@3.20.1)(@vue/compiler-sfc@3.5.27)(markdown-it-async@2.2.0)(postcss@8.5.6)(typescript@5.9.3)(vite@7.3.1(@types/node@24.10.6)(jiti@2.6.1)(tsx@4.19.2)(yaml@2.8.2))
       yaml: 2.8.2
     transitivePeerDependencies:
       - '@nuxt/kit'
@@ -4879,7 +4901,7 @@ snapshots:
 
   '@slidev/types@0.47.5': {}
 
-  '@slidev/types@52.11.5(@nuxt/kit@3.20.1)(@vue/compiler-sfc@3.5.27)(markdown-it-async@2.2.0)(postcss@8.5.6)(typescript@5.9.3)(vite@7.3.1(@types/node@24.10.6)(jiti@2.6.1)(tsx@4.19.2)(yaml@2.8.2))':
+  '@slidev/types@52.12.0(@nuxt/kit@3.20.1)(@vue/compiler-sfc@3.5.27)(markdown-it-async@2.2.0)(postcss@8.5.6)(typescript@5.9.3)(vite@7.3.1(@types/node@24.10.6)(jiti@2.6.1)(tsx@4.19.2)(yaml@2.8.2))':
     dependencies:
       '@antfu/utils': 9.3.0
       '@shikijs/markdown-it': 3.21.0(markdown-it-async@2.2.0)
@@ -5589,6 +5611,10 @@ snapshots:
 
   balanced-match@1.0.2: {}
 
+  balanced-match@4.0.2:
+    dependencies:
+      jackspeak: 4.2.3
+
   baseline-browser-mapping@2.8.21: {}
 
   binary-extensions@2.3.0: {}
@@ -5600,6 +5626,10 @@ snapshots:
   brace-expansion@2.0.2:
     dependencies:
       balanced-match: 1.0.2
+
+  brace-expansion@5.0.2:
+    dependencies:
+      balanced-match: 4.0.2
 
   braces@3.0.3:
     dependencies:
@@ -6605,9 +6635,9 @@ snapshots:
     dependencies:
       is-glob: 4.0.3
 
-  glob@13.0.0:
+  glob@13.0.3:
     dependencies:
-      minimatch: 10.1.1
+      minimatch: 10.2.0
       minipass: 7.1.2
       path-scurry: 2.0.0
 
@@ -6762,6 +6792,10 @@ snapshots:
   isarray@1.0.0: {}
 
   isexe@2.0.0: {}
+
+  jackspeak@4.2.3:
+    dependencies:
+      '@isaacs/cliui': 9.0.0
 
   jiti@2.6.1: {}
 
@@ -7268,6 +7302,10 @@ snapshots:
     dependencies:
       '@isaacs/brace-expansion': 5.0.0
 
+  minimatch@10.2.0:
+    dependencies:
+      brace-expansion: 5.0.2
+
   minimatch@9.0.5:
     dependencies:
       brace-expansion: 2.0.2
@@ -7613,9 +7651,9 @@ snapshots:
 
   reusify@1.0.4: {}
 
-  rimraf@6.1.2:
+  rimraf@6.1.3:
     dependencies:
-      glob: 13.0.0
+      glob: 13.0.3
       package-json-from-dist: 1.0.1
 
   robust-predicates@3.0.2: {}
