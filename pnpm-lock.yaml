@@ -10,7 +10,7 @@ importers:
     dependencies:
       '@slidev/cli':
         specifier: latest
-        version: 52.14.1(@nuxt/kit@3.20.1)(@types/markdown-it@14.1.2)(@types/node@24.10.6)(@vue/compiler-sfc@3.5.29)(markdown-it-async@2.2.0)(markdown-it@14.1.1)(playwright-chromium@1.59.0)(postcss@8.5.6)(tsx@4.19.2)
+        version: 52.14.1(@nuxt/kit@3.20.1)(@types/markdown-it@14.1.2)(@types/node@24.10.6)(@vue/compiler-sfc@3.5.29)(markdown-it-async@2.2.0)(markdown-it@14.1.1)(playwright-chromium@1.59.1)(postcss@8.5.6)(tsx@4.19.2)
       '@slidev/theme-default':
         specifier: latest
         version: 0.25.0
@@ -43,8 +43,8 @@ importers:
         specifier: 2.6.1
         version: 2.6.1
       playwright-chromium:
-        specifier: 1.59.0
-        version: 1.59.0
+        specifier: 1.59.1
+        version: 1.59.1
       prettier-plugin-slidev:
         specifier: 1.0.5
         version: 1.0.5(prettier@3.8.1)
@@ -1526,12 +1526,6 @@ packages:
 
   '@typescript-eslint/tsconfig-utils@8.56.1':
     resolution: {integrity: sha512-qOtCYzKEeyr3aR9f28mPJqBty7+DBqsdd63eO0yyDwc6vgThj2UjWfJIcsFeSucYydqcuudMOprZ+x1SpF3ZuQ==}
-    engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
-    peerDependencies:
-      typescript: '>=4.8.4 <6.0.0'
-
-  '@typescript-eslint/tsconfig-utils@8.57.0':
-    resolution: {integrity: sha512-LtXRihc5ytjJIQEH+xqjB0+YgsV4/tW35XKX3GTZHpWtcC8SPkT/d4tqdf1cKtesryHm2bgp6l555NYcT2NLvA==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
     peerDependencies:
       typescript: '>=4.8.4 <6.0.0'
@@ -3529,13 +3523,13 @@ packages:
   plantuml-encoder@1.4.0:
     resolution: {integrity: sha512-sxMwpDw/ySY1WB2CE3+IdMuEcWibJ72DDOsXLkSmEaSzwEUaYBT6DWgOfBiHGCux4q433X6+OEFWjlVqp7gL6g==}
 
-  playwright-chromium@1.59.0:
-    resolution: {integrity: sha512-dxNxQbAYUk6hXoAuJe283Gtt23TUK9gNkYc6wK/wh1nRGDxDszMdyhTXLPXmJ19bCH46OXhe8ZIJYvR1WW3nng==}
+  playwright-chromium@1.59.1:
+    resolution: {integrity: sha512-aTsPenkxsr9np4vIHuMEND6comqepVvzbL0MwkozFNliwGZjTqrBUQ7TF6Ay1ZIU/e7rcUpGsCTUG+nqwxG2Xw==}
     engines: {node: '>=18'}
     hasBin: true
 
-  playwright-core@1.59.0:
-    resolution: {integrity: sha512-PW/X/IoZ6BMUUy8rpwHEZ8Kc0IiLIkgKYGNFaMs5KmQhcfLILNx9yCQD0rnWeWfz1PNeqcFP1BsihQhDOBCwZw==}
+  playwright-core@1.59.1:
+    resolution: {integrity: sha512-HBV/RJg81z5BiiZ9yPzIiClYV/QMsDCKUyogwH9p3MCP6IYjUFu/MActgYAvK0oWyV9NlwM3GLBjADyWgydVyg==}
     engines: {node: '>=18'}
     hasBin: true
 
@@ -5356,7 +5350,7 @@ snapshots:
 
   '@sindresorhus/merge-streams@4.0.0': {}
 
-  '@slidev/cli@52.14.1(@nuxt/kit@3.20.1)(@types/markdown-it@14.1.2)(@types/node@24.10.6)(@vue/compiler-sfc@3.5.29)(markdown-it-async@2.2.0)(markdown-it@14.1.1)(playwright-chromium@1.59.0)(postcss@8.5.6)(tsx@4.19.2)':
+  '@slidev/cli@52.14.1(@nuxt/kit@3.20.1)(@types/markdown-it@14.1.2)(@types/node@24.10.6)(@vue/compiler-sfc@3.5.29)(markdown-it-async@2.2.0)(markdown-it@14.1.1)(playwright-chromium@1.59.1)(postcss@8.5.6)(tsx@4.19.2)':
     dependencies:
       '@antfu/ni': 28.2.0
       '@antfu/utils': 9.3.0
@@ -5429,7 +5423,7 @@ snapshots:
       yaml: 2.8.3
       yargs: 18.0.0
     optionalDependencies:
-      playwright-chromium: 1.59.0
+      playwright-chromium: 1.59.1
     transitivePeerDependencies:
       - '@nuxt/kit'
       - '@pinia/colada'
@@ -5813,8 +5807,8 @@ snapshots:
 
   '@typescript-eslint/project-service@8.56.1(typescript@5.9.3)':
     dependencies:
-      '@typescript-eslint/tsconfig-utils': 8.57.0(typescript@5.9.3)
-      '@typescript-eslint/types': 8.57.0
+      '@typescript-eslint/tsconfig-utils': 8.58.0(typescript@5.9.3)
+      '@typescript-eslint/types': 8.58.0
       debug: 4.4.3
       typescript: 5.9.3
     transitivePeerDependencies:
@@ -5854,10 +5848,6 @@ snapshots:
       '@typescript-eslint/visitor-keys': 8.58.0
 
   '@typescript-eslint/tsconfig-utils@8.56.1(typescript@5.9.3)':
-    dependencies:
-      typescript: 5.9.3
-
-  '@typescript-eslint/tsconfig-utils@8.57.0(typescript@5.9.3)':
     dependencies:
       typescript: 5.9.3
 
@@ -8361,11 +8351,11 @@ snapshots:
 
   plantuml-encoder@1.4.0: {}
 
-  playwright-chromium@1.59.0:
+  playwright-chromium@1.59.1:
     dependencies:
-      playwright-core: 1.59.0
+      playwright-core: 1.59.1
 
-  playwright-core@1.59.0: {}
+  playwright-core@1.59.1: {}
 
   pluralize@8.0.0: {}
 
