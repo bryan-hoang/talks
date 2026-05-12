@@ -19,7 +19,7 @@
     "eslint": "10.3.0",
     "eslint-plugin-format": "2.0.1",
     "execa": "9.6.1",
-    "jiti": "2.6.1",
+    "jiti": "2.7.0",
     "playwright-chromium": "1.59.1",
     "prettier-plugin-slidev": "1.0.5"
   },
