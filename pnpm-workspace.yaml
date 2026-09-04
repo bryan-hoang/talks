@@ -1,4 +1,23 @@
+shellEmulator: true
+trustPolicy: no-downgrade
+trustPolicyExclude:
+  # undici-types@6.21.0 is pulled by @types/node@22 through the Slidev package.
+  # Its missing provenance is documented as broken release automation upstream:
+  # https://github.com/nodejs/undici/issues/4666
+  # Remove this exclusion once a compatible attested release is resolved.
+  - undici-types@6.21.0
+  # semver@6.3.1 is required by @babel/core through Slidev's Vue JSX plugin.
+  # The pnpm cross-major trust check flags it because semver v7 had provenance:
+  # https://github.com/pnpm/pnpm/issues/10202
+  # https://github.com/npm/node-semver/issues/886
+  # Remove this exclusion once a compatible attested release is resolved.
+  - semver@6.3.1
 packages:
-  - "*/src"
+  - '*/src'
 allowBuilds:
   playwright-chromium: true
+# Slidev client imports these styles without declaring the package dependency.
+packageExtensions:
+  '@slidev/client@52.19.1':
+    dependencies:
+      markdown-it-github-alerts: 1.0.1

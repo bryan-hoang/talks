@@ -1,0 +1,10 @@
+{
+  "overrides": [
+    {
+      "files": ["pnpm-workspace.yaml"],
+      "options": {
+        "singleQuote": true
+      }
+    }
+  ]
+}
