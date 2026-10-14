@@ -20,7 +20,7 @@
     "eslint-plugin-format": "2.0.1",
     "execa": "10.1.0",
     "jiti": "2.7.0",
-    "playwright-chromium": "1.63.0",
+    "playwright-chromium": "1.64.0",
     "prettier-plugin-slidev": "1.0.5"
   },
   "packageManager": "pnpm@12.10.1"
