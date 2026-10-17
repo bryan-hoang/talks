@@ -1,0 +1,12 @@
+amends "package://github.com/jdx/hk/releases/download/v2.7.0/hk@2.7.0#/Config.pkl"
+import "package://github.com/jdx/hk/releases/download/v2.7.0/hk@2.7.0#/Builtins.pkl"
+
+steps {
+  ["jactionlint"] = Builtins.jactionlint
+}
+
+hooks {
+  ["pre-commit"] {
+    fix = false
+  }
+}

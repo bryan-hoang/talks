@@ -48,6 +48,13 @@ pnpm build
 
 PRs accepted.
 
+Set up the workflow linter from the repository root:
+
+1. If mise blocks install, review `mise.toml` and run `mise trust mise.toml`.
+2. Run `mise install` to install the pinned tools.
+3. Run `mise exec -- hk install --mise` to install Git hooks for this clone.
+4. Run `mise exec -- hk check --all --step jactionlint` to lint workflows.
+
 Small note: if editing the README, conform to the [standard-readme](https://github.com/RichardLitt/standard-readme)
 specification.
 
