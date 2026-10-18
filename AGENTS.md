@@ -14,4 +14,6 @@
 - Replace the path and script to run a different workspace command.
 - `pnpm build` removes root `dist/` and builds all workspaces.
 - A workspace's `export` script overwrites the tracked PDF beside `src/`.
-- `pnpm lint` runs ESLint. There are no test or type check scripts.
+- `pnpm lint` runs `oxlint` and `oxfmt`.
+- ESLint checks Slidev Markdown, YAML, TOML, and rules `oxlint` lacks.
+- There are no test or type check scripts.
