@@ -1,4 +1,5 @@
 {
+  "ignorePatterns": ["**/src/slides.md"],
   "overrides": [
     {
       "files": [
@@ -13,7 +14,16 @@
       ],
       "options": {
         "arrowParens": "avoid",
+        "sortImports": true,
         "singleQuote": true
+      }
+    },
+    {
+      "files": ["**/*.md", "**/*.markdown", "**/*.mdx"],
+      "options": {
+        "embeddedLanguageFormatting": "off",
+        "printWidth": 120,
+        "proseWrap": "always"
       }
     },
     {
