@@ -15,4 +15,9 @@ export default antfu({
   rules: {
     'style/semi': ['error', 'always'],
   },
+}).append({
+  files: ['*/src/slides.md'],
+  rules: {
+    'markdown/no-multiple-h1': 'off',
+  },
 });

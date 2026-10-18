@@ -4,12 +4,10 @@ import { consola } from 'consola';
 import { execa } from 'execa';
 
 async function startPicker(args: string[]) {
-  const folders = (
-    await readdir(new URL('..', import.meta.url), { withFileTypes: true })
-  )
+  const folders = (await readdir(new URL('..', import.meta.url), { withFileTypes: true }))
     .filter(dirent => dirent.isDirectory())
     .map(dirent => dirent.name)
-    .filter(folder => folder.match(/^[0-9]{4}-/))
+    .filter(folder => folder.match(/^\d{4}-/))
     .sort((a, b) => -a.localeCompare(b));
 
   const folder = await consola.prompt('Pick a folder', {

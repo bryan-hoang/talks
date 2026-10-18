@@ -1,4 +1,5 @@
-shellEmulator: true
+minimumReleaseAgeExcludePrune: true
+
 trustPolicy: no-downgrade
 trustPolicyExclude:
   # undici-types@6.21.0 is pulled by @types/node@22 through the Slidev package.
@@ -12,12 +13,19 @@ trustPolicyExclude:
   # https://github.com/npm/node-semver/issues/886
   # Remove this exclusion once a compatible attested release is resolved.
   - semver@6.3.1
+
+shellEmulator: true
+
 packages:
   - '*/src'
-allowBuilds:
-  playwright-chromium: true
 # Slidev client imports these styles without declaring the package dependency.
 packageExtensions:
   '@slidev/client@52.19.1':
     dependencies:
       markdown-it-github-alerts: 1.0.1
+# ponytail: Remove when upstream fixes @slidev/client's unscoped --uno directives.
+patchedDependencies:
+  '@slidev/client@53.0.0': patches/@slidev__client@53.0.0.patch
+
+allowBuilds:
+  playwright-chromium: true

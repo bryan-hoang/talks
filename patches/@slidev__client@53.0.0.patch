@@ -1,0 +1,30 @@
+diff --git a/styles/code.css b/styles/code.css
+index 7bab2213d7d2d76f379589c548431d8bc2534af7..053c1da00e1efda26bdd03e4746e4001995e09b7 100644
+--- a/styles/code.css
++++ b/styles/code.css
+@@ -119,5 +119,13 @@ html:not(.dark) .shiki span {
+   counter-increment: step;
+   display: inline-block;
+   text-align: right;
+-  --uno: w-4 mr-6 text-gray-400 dark-text-gray-600;
++  width: 1rem;
++  margin-right: 1.5rem;
++  --un-text-opacity: 1;
++  color: rgb(156 163 175 / var(--un-text-opacity));
++}
++
++.dark .slidev-code-line-numbers .slidev-code code .line::before {
++  --un-text-opacity: 1;
++  color: rgb(75 85 99 / var(--un-text-opacity));
+ }
+@@ -128,5 +136,9 @@ html:not(.dark) .shiki span {
+   font-size: 0.9em;
+   background: var(--slidev-code-background);
+   border-radius: var(--slidev-code-radius);
+-  --uno: font-light py-0.5 px-1.5;
++  font-weight: 300;
++  padding-top: 0.125rem;
++  padding-bottom: 0.125rem;
++  padding-left: 0.375rem;
++  padding-right: 0.375rem;
+ }

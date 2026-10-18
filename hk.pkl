@@ -8,5 +8,13 @@ steps {
 hooks {
   ["pre-commit"] {
     fix = false
+    steps {
+      ["lint"] {
+        check = "pnpm run lint"
+      }
+      ["build"] {
+        check = "pnpm run build"
+      }
+    }
   }
 }
